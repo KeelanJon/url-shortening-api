@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a, ul, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2em 5%;
+}
+
+.main-logo{
+    cursor: pointer;
+}
+
+.burger-icon{
+    font-size: 30px;
+    color:hsl(257, 7%, 63%);
+
+    cursor: pointer;
+}
+
+.desktop-nav-container{
+   display: none;
+}
+
+.mobile-menu{
+    margin: auto;
+    width: 90%;
+    /* height at 0 by default, open height is 420px */
+    height: 0px;
+    /* Padding also needs to be 0 by default, open with 2em*/
+    padding: 0em;
+
+    border-radius: 8px;
+
+    background-color: hsl(257, 27%, 26%);
+
+    text-align: center;
+
+    overflow: hidden;
+    transition: 0.3s ease-in-out 0s;
+}
+
+.mobile-menu a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mobile-links{
+    border-bottom: 1px solid hsl(257, 7%, 63%);
+}
+
+.mobile-menu ul{
+    padding: 1em 0;
+}
+
+.mobile-menu li{
+    padding: 1em;
+}
+
+.menu-cta{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 50px;
+
+    border: none;
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+/* HERO SECTION STYLES */
+
+.hero-image{
+    position: relative;
+    width: 130vw;
+    max-width: 850px;
+    left: 5%;
+}
+
+.header-text{
+    text-align: center;
+    padding: 2em 5%;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: hsl(255, 11%, 22%);
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: hsl(255, 11%, 22%);
+}
+
+h3{
+    padding: 1em 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(257, 7%, 63%);
+}
+
+h4{
+    font-size: 1.2em;
+    padding: 1em;
+    color:hsl(255, 11%, 22%);
+}
+
+.primary-button{
+    padding: 15px 40px;
+    border-radius: 50px;
+
+    border: none;
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sect-two{
+    background-color: #f6f6f6;
+
+    padding: 10% 5%;
+}
+
+.shorten-form{
+    padding: 2em;
+    border-radius: 8px;
+
+    background-color: hsl(257, 27%, 26%);
+    background-image: url("images/bg-shorten-mobile.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.shorten-form input{
+    display: block;
+    width: 100%;
+
+    font-size: 1em;
+    font-weight: 500;
+
+    padding: 0.5em;
+    border-radius: 8px;
+    border: none;
+    margin: 1em 0;
+}
+
+
+.section-header{
+    text-align: center;
+    padding: 3em 5%;
+}
+
+.section-header p{
+    padding: 2em 0;
+    font-size: 1em;
+    font-weight: 500;
+    color: hsl(257, 7%, 63%);
+}
+
+
+/* Onto the three card styles! */
+
+.three-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card{
+    text-align: center;
+    padding: 2em;
+    margin: 50px 0;
+
+    border-radius: 6px;
+
+    background-color: #fff;
+
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+}
+
+.card-icon{
+    background-color: hsl(257, 27%, 26%);
+    padding: 1em;
+
+}
+
+.card p{
+    font-size: 15px;
+    font-weight: 500;
+
+    color:hsl(257, 7%, 63%);
+}

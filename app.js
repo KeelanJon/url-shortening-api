@@ -1,0 +1,3 @@
+
+// Caching the DOM
+
