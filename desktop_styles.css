@@ -1,0 +1,78 @@
+
+
+
+@media (min-width: 981px){
+
+    #myBurgerIcon{
+        display: none;
+    }
+
+    header{
+        padding: 2rem 10%;
+    }
+
+    .desktop-nav-container{
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-left: 2rem;
+    }
+
+    .desktop-nav-container a{
+        font-weight: 500;
+        color: hsl(257, 7%, 63%);
+    }
+
+    .desktop-nav a{
+        padding: 10px 20px;
+    }
+
+    .account-options{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .account-options a{
+       padding: 10px 20px;
+    }
+
+    .menu-cta{
+        padding: 0.5rem 1.5rem;
+    }
+
+
+
+    /* Hero section */
+
+    .hero-sect{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 10% 5%;
+    }
+
+    .header-text{
+        order:0;
+        text-align: left;
+        flex: 2;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    .hero-image{
+        order: 1;
+        flex: 2;
+    }
+
+
+
+
+
+}

@@ -52,7 +52,7 @@ header{
     text-align: center;
 
     overflow: hidden;
-    transition: 0.3s ease-in-out 0s;
+    transition: 0.3s ease-in-out 0.1s;
 }
 
 .mobile-menu-open{
